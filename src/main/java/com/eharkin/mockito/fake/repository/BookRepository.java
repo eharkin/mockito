@@ -1,7 +1,7 @@
-package com.eharkin1.mockito.fake.repository;
+package com.eharkin.mockito.fake.repository;
 
 
-import com.eharkin1.mockito.fake.model.Book;
+import com.eharkin.mockito.fake.model.Book;
 
 import java.util.Collection;
 

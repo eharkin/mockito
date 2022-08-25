@@ -1,4 +1,4 @@
-package com.eharkin1.mockito.fake.model;
+package com.eharkin.mockito.fake.model;
 
 import java.time.LocalDate;
 

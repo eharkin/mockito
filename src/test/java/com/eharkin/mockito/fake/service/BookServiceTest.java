@@ -1,7 +1,7 @@
-package com.eharkin1.mockito.fake.service;
+package com.eharkin.mockito.fake.service;
 
-import com.eharkin1.mockito.fake.model.Book;
-import com.eharkin1.mockito.fake.repository.BookRepository;
+import com.eharkin.mockito.fake.model.Book;
+import com.eharkin.mockito.fake.repository.BookRepository;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
