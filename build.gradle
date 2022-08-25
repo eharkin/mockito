@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.eharkin.mockito'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //lombok dependencies
+    implementation 'org.projectlombok:lombok:1.18.24'
+
+    //test dependencies
+    testImplementation 'org.projectlombok:lombok:1.18.24'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
